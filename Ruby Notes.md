@@ -58,3 +58,17 @@ cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers)
 # \*args
 
 a lot like your argv parameter but for functions.
+
+# irb
+
+Like REPL but for Ruby, use it to test ruby
+
+# Boolean shortcuts
+
+- Any && expression that has a false is immediately false, so you can stop there.
+- Any || expression that has a true is immediately true, so you can stop there.
+
+# Increment Operator += / -=
+
+Same as x = x + 1
+Or x = x -1
