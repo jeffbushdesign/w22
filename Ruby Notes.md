@@ -137,3 +137,8 @@ Remember: ordinal == ordered, 1st; cardinal == cards at random, 0.
 
 animals = ['bear', 'tiger', 'penguin', 'zebra']
 bear = animals[0]
+
+# Ruby History
+
+Ruby was born on February 24, 1993
+Whoa!
