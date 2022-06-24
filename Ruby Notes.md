@@ -78,3 +78,27 @@ Or x = x -1
 Why does the code under the if need to be indented two spaces?
 In Ruby you indent code under statements like if, else, and others so that other programmers know it is a "block" of code.
 Blocks can have other blocks in them and are ended with an end. There are other ways to make a block of code, but for if-statements this is the way.
+
+# Loops
+
+## Use this way
+
+```
+fruits.each do |fruit|
+  puts "A fruit of type: #{fruit}"
+end
+```
+
+## Or this way
+
+```
+change.each {|i| puts "I got #{i}"}
+```
+
+## Don't use this way
+
+```
+for number in the_count
+  puts "This is count #{number}"
+end
+```
