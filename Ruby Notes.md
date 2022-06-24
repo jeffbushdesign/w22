@@ -81,6 +81,9 @@ Blocks can have other blocks in them and are ended with an end. There are other 
 
 # Loops
 
+For
+While
+
 ## Use this way
 
 ```
@@ -102,3 +105,35 @@ for number in the_count
   puts "This is count #{number}"
 end
 ```
+
+# Misc
+
+if
+.each
+do ... end
+{ ... }
+
+# While Loop
+
+A while-loop runs until the expression is false.
+(sometimes they don't stop... this is bad)
+Rule to Follow:
+
+- Make sure that you use while-loops sparingly. Usually a for-loop is better.
+- Review your while statements and make sure that the boolean test will become false at some point.
+- When in doubt, print out your test variable at the top and bottom of the while-loop to see what it's doing.
+
+# For Loop vs While Loop
+
+A for-loop can only iterate (loop) "over" collections of things. A while-loop can do any kind of iteration (looping) you want. However, while-loops are harder to get right, and you normally can get many things done with for-loops.
+
+# Ordinal vs Cardinal Numbers
+
+How does this help you work with arrays? Simple, every time you say to yourself, "I want the third animal," you translate this "ordinal" number to a "cardinal" number by subtracting 1. The "third" animal is at index 2 and is the penguin. You have to do this because you have spent your whole life using ordinal numbers, and now you have to think in cardinal. Just subtract 1 and you will be good.
+
+Remember: ordinal == ordered, 1st; cardinal == cards at random, 0.
+
+# Accessing Array Elements
+
+animals = ['bear', 'tiger', 'penguin', 'zebra']
+bear = animals[0]
