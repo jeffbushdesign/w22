@@ -141,4 +141,22 @@ bear = animals[0]
 # Ruby History
 
 Ruby was born on February 24, 1993
-Whoa!
+
+# Methods (functions in Ruby) and Blocks
+
+If arguments are how we pass in data to methods (functions), blocks are how we pass in behavior.
+--> a chunk of logic that your method can run
+
+# Blocks
+
+Passing in a block into a Ruby method is a lot like passing in a callback function into a javascript function. The syntax is different but the pattern is similar
+
+Procs and Lambdas are even more like callbacks.
+They are more powerful but less commonly used / needed than blocks.
+
+Much like JavaScript, Ruby gives us the ability to pass around executable code as if it were data. Blocks are the simplest way to do this in Ruby.
+
+# Benchmarking Code
+
+Why benchmark code?
+A benchmark is a measurement or a set of measurements related to the performance of a piece of code in an application. Benchmarking code is essential to understanding the performance metrics of the methods in your application. It is always a good approach to have the metrics at hand when you’re optimizing code. It is very important for us to know if the changes made in the code has improved or worsened the performance. Benchmarking also helps you to narrow in on the portions of the code in the application that need refactoring.
